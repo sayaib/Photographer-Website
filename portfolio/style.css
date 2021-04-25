@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", Arial, sans-serif;
+    
+}
+.navbar{
+    background-color: #c72c41;
+    color: #fff;
+}
+.navbar-brand{
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 1px;
+}
+
+.portfolio_body{
+    text-align: center;
+    
+}
+.card{
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+
+
+
+
+.designer{
+    text-align: center;
+    padding: 4rem 0 0 0;
+    
+}
+.designer a{
+    color: #6e7c7c;
+    text-decoration: none;
+    font-size: smaller;
+    opacity: 0.6;
+}

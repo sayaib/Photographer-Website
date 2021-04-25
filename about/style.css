@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", Arial, sans-serif;
+   
+    
+    
+}
+p{
+    font-size: 15px;
+}
+.navbar{
+    background-color: #c72c41;
+    
+}
+.navbar-brand{
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 1px;
+}
+.profile{
+    width: 30vh;
+    border-radius: 50%;
+}
+.about_body{
+    text-align: center;
+    padding: 2.5rem;
+}
+.button{
+    background-color: #114e60;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+.button:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #542e71;
+    transition: 0.4s;
+
+}
+h6{
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+
+.services{
+    text-align: center;
+    padding:1.5rem 0;
+}
+hr{
+    width: 10%;
+    background-color: #c72c41;
+}
+.contact{
+    text-align: center;
+}
+.btn{
+    margin: 1rem;
+    padding: 0.5rem;
+}
+.social a{
+    color: black;
+    margin-top: 1rem;
+    padding: 10px 10px 0 10px;
+}
+
+
+
+
+
+
+.designer{
+    text-align: center;
+    padding: 4rem 0 0 0;
+    
+}
+.designer a{
+    color: #6e7c7c;
+    text-decoration: none;
+    font-size: smaller;
+    opacity: 0.6;
+}

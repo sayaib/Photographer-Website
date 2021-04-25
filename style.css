@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+      text-align: center;
+    position: relative;
+    height: 100vh;
+  }
+  .container:before {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/background.jpg) center / cover;
+    content: '';
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    z-index: -1;
+  }
+
+ .tag{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+ 
+   
+ }
+ 
+ h1{
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 3px;
+ }
+ p{
+    letter-spacing: 3px;
+    font-family: 'Play', sans-serif;
+ }
+
+ 
+ button{
+     color: cornsilk;
+     background-color: #c72c41;
+     text-decoration: none;
+     border: none;
+     
+     padding:10px 20px;
+     margin: 1rem;
+     border-radius: 20px;
+     cursor: pointer;
+     
+     font-family: 'Maven Pro', sans-serif;
+
+ }
+ button:hover{
+     opacity: 0.9;
+     background-color: #ff0000;
+     transition: 0.4s;
+     
+ }
+ .enter{
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: 5px;
+    text-decoration: none;
+ }
